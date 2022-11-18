@@ -1,10 +1,10 @@
-import NavBar from "../components/NavBar";
-import Footer from "../components/Footer";
+import ButtonWhatsap from "../components/ButtonWhatsap";
 
 function Home() {
 
     return ( 
         <>
+        
         </>
     )
 }
