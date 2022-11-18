@@ -2,6 +2,8 @@ import logo from "../../public/logo.png";
 import { FaLinkedin, FaInstagramSquare, FaFacebookF } from 'react-icons/fa';
 import { FooterStyle } from "./Footer.style"
 
+//Adicionar rotas
+
 function Footer() {
     return (
         <FooterStyle>
