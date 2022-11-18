@@ -1,3 +1,4 @@
+
 import SectionBuscaHome from "../components/SectionBuscaHome";
 import CacarVets from "../components/SectionCacarVets";
 import SectionCarrosselHome from "../components/SectionCarrosselHome";
@@ -15,6 +16,7 @@ function Home() {
             <SectionFAQ/>
         </>
         
+
     )
 }
 
