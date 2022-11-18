@@ -1,4 +1,6 @@
 
+import Footer from "../components/Footer";
+import NavBar from "../components/NavBar";
 import SectionBuscaHome from "../components/SectionBuscaHome";
 import CacarVets from "../components/SectionCacarVets";
 import SectionCarrosselHome from "../components/SectionCarrosselHome";
@@ -9,14 +11,14 @@ function Home() {
 
     return(
         <>
+            <NavBar/>
             <SectionBuscaHome/>
             <CacarVets/>
             <SectionVoceVet/>
             <SectionCarrosselHome/>
             <SectionFAQ/>
+            <Footer/>
         </>
-        
-
     )
 }
 
