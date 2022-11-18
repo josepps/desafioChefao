@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 export const SectionBusca = styled.section`
     background-color: #017369;
-    min-height: 100vh;
+    min-height: 85vh;
     width: 100%;
     display: grid;
     align-items: center; 
@@ -17,7 +17,7 @@ export const SectionBusca = styled.section`
 export const DivApresentacaoHome = styled.div`
     display: grid;
     grid-template-columns: 600px 350px;
-    column-gap: 18rem;
+    column-gap: 15rem;
     max-width: 1300px;
     
     justify-content: space-around;
@@ -27,7 +27,6 @@ export const DivApresentacaoHome = styled.div`
 export const DivInicialDescricaoHome = styled.div`
     flex-direction : column;
     width: 600px;
-    font-family: Arial, Helvetica, sans-serif;
     color: #fff;
     margin-bottom: 7rem;
     margin-right: 3rem;

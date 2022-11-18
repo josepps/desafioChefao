@@ -8,8 +8,6 @@ function CardPerguntas(){
 
     const [isVisible, setIsVisible] = useState(false);
 
-    
-    
 
 
     return(
