@@ -33,11 +33,16 @@ export const Header = styled.header`
 
             a {
                 display: flex;
+                align-items: center;
                 color: #fff;
                 text-decoration: none;
                 padding: 0 3%;
                 white-space: nowrap;
                 font-weight: 600;
+            }
+
+            .FaplusNavBAr {
+                margin-left: 10px;
             }
 
             .ButtonCadastar {
