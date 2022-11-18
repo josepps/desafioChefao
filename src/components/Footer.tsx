@@ -5,7 +5,7 @@ import { FooterStyle } from "./Footer.style"
 function Footer() {
     return (
         <FooterStyle>
-            <div>
+            <div className="containerLogoFooter">
                 <a href="#">
                     <img src={logo} alt="Logo da empresa" />
                     <h2>CaçaVet</h2>
@@ -21,7 +21,7 @@ function Footer() {
                 <a href="#">Política de Privacidade</a>
                 <a href="#">Profissionais vets</a>
             </div>
-            <div>
+            <div className="navContatoFooter">
                 <h2>Siga nossas redes</h2>
                 <div>
                     <a href="#"><FaLinkedin /></a>
