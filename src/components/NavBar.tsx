@@ -1,7 +1,7 @@
 import logo from "../../public/logo.png";
+import { FaPlus } from 'react-icons/fa';
 import { Header } from "./NavBar.style"
 
-// Simbolo de Mias(+) em SVG
 //Colocar Caminhos
 //Colocar background na página que está
 //Background da página Home
@@ -22,7 +22,7 @@ function NavBar() {
                     <a href="#">Vets</a>
                     <a href="#">FAQ</a>
                     <a href="#">Acessar conta</a>
-                    <a className="ButtonCadastar" href="#">Cadastrar meu serviço <b>+</b></a>
+                    <a className="ButtonCadastar" href="#">Cadastrar meu serviço <FaPlus className="FaplusNavBAr"/></a>
                 </nav>
             </Header>
         </>
