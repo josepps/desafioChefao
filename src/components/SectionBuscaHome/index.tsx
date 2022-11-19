@@ -1,6 +1,8 @@
 import {SectionBusca, DivImagensInicialHome, DivInicialDescricaoHome, DivApresentacaoHome, ImgIconGatoCachorro, Setaparabaixo} from "./SectionBuscaHome.style"
+import ImputFiltro from "../ImputFiltro"
 import IconGatoCachorro from "./../../../public/Group103.png" 
 import SetaIcon from "./../../../public/setaparabaixo.png" 
+
 
 
 function SectionBuscaHome(){
@@ -15,6 +17,7 @@ function SectionBuscaHome(){
                     <ImgIconGatoCachorro src={IconGatoCachorro} alt="Gato e cachorro"></ImgIconGatoCachorro>
                 </DivImagensInicialHome>
             </DivApresentacaoHome>
+            <ImputFiltro />
             <Setaparabaixo><img src={SetaIcon} alt="seta para rolagem de tela" /></Setaparabaixo>
         </SectionBusca>
     )

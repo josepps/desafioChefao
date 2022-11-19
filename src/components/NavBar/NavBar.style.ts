@@ -31,7 +31,7 @@ export const Header = styled.header`
             align-items: center;
             margin-right: 15%;
 
-            a {
+            .navegacaoNavBat {
                 display: flex;
                 align-items: center;
                 color: #fff;
@@ -39,23 +39,6 @@ export const Header = styled.header`
                 padding: 0 3%;
                 white-space: nowrap;
                 font-weight: 600;
-            }
-
-            .FaplusNavBAr {
-                margin-left: 10px;
-            }
-
-            .ButtonCadastar {
-                margin: 0 4%;
-                padding: 3% 9%;
-                background: #FF9900;
-                border-radius: 24px;
-                color: #000;
-
-                b {
-                    font-weight: bolder;
-                    margin-left: 5%;
-                }
             }
         }
 `;
