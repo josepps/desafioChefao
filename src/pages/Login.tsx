@@ -1,6 +1,16 @@
+import Footer from "../components/Footer";
+import FormLogin from "../components/FormLogin";
+import NavBar from "../components/NavBar";
+
 function Login() {
 
-    return <h1>Login</h1>
+    return(
+        <>
+            <NavBar/>
+            <FormLogin />
+            <Footer/>
+        </>
+    )
 }
 
 export default Login;
