@@ -1,4 +1,5 @@
 import { FaWhatsapp } from 'react-icons/fa';
+import PopupWhats from '../PopUpWhatsapp';
 import { BtnWhatsap } from "./ButtonWhatsap.style"
 
 //Ajeitar tamnho quando tiver na tela
@@ -7,7 +8,7 @@ import { BtnWhatsap } from "./ButtonWhatsap.style"
 function ButtonWhatsap() {
     
     return <BtnWhatsap>
-        Agendar Consulta 
+        <PopupWhats/>
         <FaWhatsapp className='IconeWhats'/> 
     </BtnWhatsap>
 }

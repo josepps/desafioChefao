@@ -6,10 +6,11 @@ export const BtnWhatsap = styled.a`
     justify-content: center;
     color: #fff;
     background: #4FDC0D;
-    padding: 15px 30px;
+    padding: 10px 20px;
     border-radius: 24px;
     font-size: 1.2rem;
     font-weight: 900;
+    gap:10px;
 
     .IconeWhats {
         font-size: 2.5rem;
