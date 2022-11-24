@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Label = styled.span`
     font-weight: 500;
     line-height: 33.4px;
-    color: background: #333333;
+    color: #333333;
 `
 export const Input = styled.input`
     border: 1.5px solid #D1D1D1;
