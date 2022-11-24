@@ -42,7 +42,13 @@ export const ConsultaValor = styled.div`
   flex-direction: row-reverse;
   margin: 100px;
   padding: 70px;
-  
+font-size: 20px;
+font-family: "Lato";
+    
+
+letter-spacing: 0em;
+text-align: left;
+margin-top: 30px;
 `;
 export const AboutMe = styled.div`
   display: grid;
@@ -50,6 +56,13 @@ export const AboutMe = styled.div`
   align-items: center;
   margin: 30px;
   gap: 20px;
+  font-family: Lato;
+font-size: 24px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0.025em;
+text-align: left;
+
 
   h2 {
     justify-content: center;
