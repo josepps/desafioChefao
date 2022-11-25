@@ -14,16 +14,16 @@ function NavBar() {
         <>
             <Header>
                 <div>
-                    <a href="#">
+                    <a href="/">
                         <img src={logo} alt="Logo" />
                         <h2>CaçaVet</h2>
                     </a>
                 </div>
                 <nav>
-                    <a className="navegacaoNavBat" href="#">Início</a>
-                    <a className="navegacaoNavBat" href="#">Vets</a>
-                    <a className="navegacaoNavBat" href="#">FAQ</a>
-                    <a className="navegacaoNavBat" href="#">Acessar conta</a>
+                    <a className="navegacaoNavBat" href="/">Início</a>
+                    <a className="navegacaoNavBat" href="/vets">Vets</a>
+                    <a className="navegacaoNavBat" href="#SectionFAQ">FAQ</a>
+                    <a className="navegacaoNavBat" href="/login">Acessar conta</a>
                     <CadastrarServico />
                 </nav>
             </Header>

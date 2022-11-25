@@ -31,7 +31,4 @@ export const CardProf1 = styled.div`
     flex-direction: row-reverse;
     margin: 50px;
     padding: 30px;
-
-    }
-
-        
+    }`

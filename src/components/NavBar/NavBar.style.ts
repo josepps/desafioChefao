@@ -14,7 +14,7 @@ export const Header = styled.header`
 
         a {
             display: flex;
-            align-items: flex-end;
+            align-items: center;
             justify-content: center;
             text-decoration: none;
         }

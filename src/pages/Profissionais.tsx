@@ -4,7 +4,7 @@ import NavBar from "../components/NavBar";
 import ImputFiltro from "../components/ImputFiltro";
 import { CardProf1 } from "./Profissionais.style";
 import icon from "../../public/foto.svg";
-import EstrelaCard from "./../../../public/EstrelaCard.svg"
+import EstrelaCard from "../../public/EstrelaCard.svg"
 import Footer from "../components/Footer";
 import ButtonWhatsap from "../components/ButtonWhatsap";
 
@@ -34,7 +34,7 @@ function Profissional() {
                         <p>Urgências 24h: R$ 140</p>
                         <ButtonWhatsap/>
             </div>
-            <CardProf1/>
+            </CardProf1>
 
 
             <CardProf1>
@@ -57,7 +57,7 @@ function Profissional() {
                         <p>Urgências 24h: R$ 140</p>
                         <ButtonWhatsap/>
             </div>
-            <CardProf1/>
+            </CardProf1>
 
 
             <CardProf1>
@@ -80,7 +80,7 @@ function Profissional() {
                         <p>Urgências 24h: R$ 150</p>
                         <ButtonWhatsap/>
             </div>
-            <CardProf1/>
+            </CardProf1>
 
 
             <CardProf1>
@@ -103,7 +103,7 @@ function Profissional() {
                         <p>Urgências 24h: R$ 120</p>
                         <ButtonWhatsap/>
             </div>
-            <CardProf1/>
+            </CardProf1>
 
 
             <CardProf1>
@@ -126,7 +126,7 @@ function Profissional() {
                         <p>Urgências 24h: R$ 130</p>
                         <ButtonWhatsap/>
             </div>
-            <CardProf1/>
+            </CardProf1>
 
 
             <CardProf1>
@@ -149,7 +149,7 @@ function Profissional() {
                         <p>Urgências 24h: R$ 140</p>
                         <ButtonWhatsap/>
             </div>
-            <CardProf1/>
+            </CardProf1>
 
 
             <CardProf1>
@@ -172,7 +172,7 @@ function Profissional() {
                         <p>Urgências 24h: R$ 140</p>
                         <ButtonWhatsap/>
             </div>
-            <CardProf1/>
+            </CardProf1>
 
 
             <CardProf1>
@@ -195,7 +195,7 @@ function Profissional() {
                         <p>Urgências 24h: R$ 140</p>
                         <ButtonWhatsap/>
             </div>
-            <CardProf1/>
+            </CardProf1>
 
 
             <CardProf1>
@@ -218,7 +218,7 @@ function Profissional() {
                         <p>Urgências 24h: R$ 140</p>
                         <ButtonWhatsap/>
             </div>
-            <CardProf1/>
+            </CardProf1>
 
 
             <CardProf1>
@@ -241,7 +241,7 @@ function Profissional() {
                         <p>Urgências 24h: R$ 150</p>
                         <ButtonWhatsap/>
             </div>
-            <CardProf1/>
+            </CardProf1>
 
 
             <Footer/>

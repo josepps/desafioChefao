@@ -4,7 +4,7 @@ import {SectionPerguntas} from "./SectionFAQ.styled"
 
 function SectionFAQ(){
     return(
-        <SectionPerguntas>
+        <SectionPerguntas id="SectionFAQ">
             <h2>FAQ</h2>
             <CardPerguntas/>
             <CardPerguntas/>
