@@ -17,12 +17,22 @@ export const ImputFiltroStyle = styled.div`
         padding: 0 10px;
     }
 
+    .ImputList:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
     .ImputLocal {
         border: none;
         padding: 0 10%;
     }
 
-    button {
+    .ImputLocal:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+    a {
         width: 10%;
         height: 100%;
         border: none;
@@ -32,5 +42,10 @@ export const ImputFiltroStyle = styled.div`
         border-radius: 0 15px 15px 0;
         cursor: pointer;
         font-weight: 600;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
     }
 `;
