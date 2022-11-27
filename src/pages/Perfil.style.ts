@@ -16,13 +16,21 @@ export const Container = styled.div`
     justify-content: center;
     width: 493.81px;
     height: 228.2px;
+    font-family: Roboto, sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
   }
 
+  img {
+    border-radius:50%;
+  }
   span {
     font-family: "Lato";
-    font-style: normal;
+    font-size: 18px;
     font-weight: 400;
-
     line-height: 29px;
   }
 `;
@@ -44,17 +52,24 @@ export const ConsultaValor = styled.div`
   padding: 70px;
 font-size: 20px;
 font-family: "Lato";
-    
-
 letter-spacing: 0em;
 text-align: left;
 margin-top: 30px;
+
+h4 {
+  padding: 10px;
+  font-size: 20px;
+}
+
+p {
+  padding: 10px;
+font-size: 18px;
+}
 `;
 export const AboutMe = styled.div`
   display: grid;
-  justify-content: center;
-  align-items: center;
-  margin: 30px;
+  justify-content: end;
+  margin: 90px;
   gap: 20px;
   font-family: Lato;
 font-size: 24px;
@@ -62,15 +77,16 @@ font-weight: 400;
 line-height: 29px;
 letter-spacing: 0.025em;
 text-align: left;
+gap: 30px;
 
-
-  h2 {
-    justify-content: center;
-    align-items: center;
-  }
   p {
-    font-size: 20px;
-    letter-spacing: 0.025em;
-    text-align: left;
+    font-family: Lato;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.025em;
+text-align: left;
+justify-content: center;
+
   }
 `;
