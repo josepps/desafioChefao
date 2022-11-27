@@ -17,15 +17,15 @@ export const Container = styled.div`
     width: 493.81px;
     height: 228.2px;
     font-family: Roboto, sans-serif;
-font-size: 20px;
-font-weight: 400;
-line-height: 28px;
-letter-spacing: 0em;
-text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
   }
 
   img {
-    border-radius:50%;
+    border-radius: 50%;
   }
   span {
     font-family: "Lato";
@@ -50,21 +50,21 @@ export const ConsultaValor = styled.div`
   flex-direction: row-reverse;
   margin: 100px;
   padding: 70px;
-font-size: 20px;
-font-family: "Lato";
-letter-spacing: 0em;
-text-align: left;
-margin-top: 30px;
-
-h4 {
-  padding: 10px;
   font-size: 20px;
-}
+  font-family: "Lato";
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 30px;
 
-p {
-  padding: 10px;
-font-size: 18px;
-}
+  h4 {
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  p {
+    padding: 10px;
+    font-size: 18px;
+  }
 `;
 export const AboutMe = styled.div`
   display: grid;
@@ -72,21 +72,20 @@ export const AboutMe = styled.div`
   margin: 90px;
   gap: 20px;
   font-family: Lato;
-font-size: 24px;
-font-weight: 400;
-line-height: 29px;
-letter-spacing: 0.025em;
-text-align: left;
-gap: 30px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0.025em;
+  text-align: left;
+  gap: 30px;
 
   p {
     font-family: Lato;
-font-size: 20px;
-font-weight: 400;
-line-height: 30px;
-letter-spacing: 0.025em;
-text-align: left;
-justify-content: center;
-
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.025em;
+    text-align: left;
+    justify-content: center;
   }
 `;

@@ -7,15 +7,17 @@ import Footer from "../components/Footer";
 import ButtonWhatsap from "../components/ButtonWhatsap";
 import { useDispatch } from "react-redux";
 import api from "../services/api";
-import CardProfissionalVet, { CardVetsProps } from "../components/CardProfissionalVet";
-import EstrelaCard from "./../../../public/EstrelaCard.svg"
-
+import CardProfissionalVet, {
+    CardVetsProps,
+} from "../components/CardProfissionalVet";
+import EstrelaCard from "./../../../public/EstrelaCard.svg";
 
 function Perfil() {
-
     const { id } = useParams();
     const [isLoading, setIsLoading] = useState(true);
-    const [vetsData, setVetsData] = useState<CardProfissionalVet>({} as CardVetsProps);;
+    const [vetsData, setVetsData] = useState<CardProfissionalVet>(
+        {} as CardVetsProps
+    );
 
     async function getVetsData() {
         const { data } = await api.get("vets/" + id);
@@ -31,6 +33,7 @@ function Perfil() {
             formation: data.formation,
             experience: data.experience,
             aboutMe: data.aboutMe,
+            address: data.address,
         });
         setIsLoading(false);
     }
@@ -52,39 +55,35 @@ function Perfil() {
 
                 <div className="perfil__vet">
                     <Title>{vetsData.name}</Title>
-                    <span>
-                        CRMV: {vetsData.crmv}
-                    </span>
+                    <span>CRMV: {vetsData.crmv}</span>
                     <h4>
                         Especialidade: <span>{vetsData.specialty}</span>
                     </h4>
                     <h4>
                         Endereço de Atendimento:
                         <span>
-
-
+                            {vetsData.address.address},  {vetsData.address.complement},  
+                            {vetsData.address.code}, {vetsData.address.district}, 
+                            {vetsData.address.city}, {vetsData.address.state}
                         </span>
                     </h4>
-
                 </div>
 
                 <ConsultaValor>
                     <div className="info__valor">
                         <h4>Valor da Consulta</h4>
-                        <p>Horário comercial: R$ 100</p>
-                        <p>Urgências 24h: R$ 140</p>
+                        <p>Horário comercial: {vetsData.queryValue}</p>
+                        <p>Urgências 24h: {vetsData.queryDutyValue}</p>
                         <ButtonWhatsap />
                     </div>
                 </ConsultaValor>
             </Container>
             <AboutMe>
                 <h2>Sobre mim</h2>
-                <p>
-                    {vetsData.aboutMe}
-                </p>
+                <p>{vetsData.aboutMe}</p>
                 <h2>Experiência</h2>
                 <p>
-                    {vetsData.experience} <br/>
+                    {vetsData.experience} <br />
                 </p>
                 <h2>Formação</h2>
                 <p>{vetsData.formation}</p>
