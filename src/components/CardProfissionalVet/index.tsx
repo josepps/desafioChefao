@@ -10,6 +10,7 @@ import { Link } from "react-router-dom";
 
 
 export type CardVetsProps = {
+  filter?: any;
   name: string;
   queryValue: number;
   queryDutyValue: number;

@@ -7,6 +7,7 @@ export const SectionProfissionais = styled.section`
     background-color: #fff;
     justify-content: center;
     align-items: center;
+    min-height: 70vh;
 `
 
 export const DivCardProfissionais = styled.div`

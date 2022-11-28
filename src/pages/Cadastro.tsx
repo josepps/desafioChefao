@@ -1,6 +1,6 @@
 import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
-import {SectionCadastro, DivInputLabel, DivForm, InputMedio, InputPequeno, InputGrande, DivImagemCadastro, DivImagemInfos, DivInfoCadastro, DivFormulario1, DivInputLabelSegundaParte, DivValores, TextArea, SpanErro} from "./FormularioCadastro.style"
+import {SectionCadastro, DivInputLabel, DivForm, InputMedio, InputPequeno, DivImagemCadastro, DivFormulario1, DivValores, TextArea, SpanErro, DivTeleconsulta} from "./FormularioCadastro.style"
 import CachorroCadastro from "./../../public/CachorroCadastro.png"
 import axios from "axios";
 import {useForm, SubmitHandler} from "react-hook-form"
@@ -124,11 +124,15 @@ function Cadastro(){
                                     <InputPequeno type="text" name="queryDutyValue" {...register("queryDutyValue")}/>
                                     <SpanErro>{errors.queryDutyValue?.message}</SpanErro> 
                                 </ DivInputLabel>
-                                    < DivInputLabel>
-                                    <label>Teleconsulta</label>
-                                    <InputPequeno type="checkbox" name="teleconsultation" {...register("teleconsultation")} /> 
-                                </ DivInputLabel>
-                            </DivValores>
+                                < DivInputLabel> 
+                                    <label>Atende remotamente?</label>
+                                    <DivTeleconsulta>
+                                        <InputPequeno type="checkbox" name="teleconsultation" {...register("teleconsultation")} /> 
+                                        <label>Remoto</label>
+                                    </DivTeleconsulta>
+                                    
+                                </ DivInputLabel> 
+                                </DivValores>
                         {/* </DivFormulario1> */}
                             <div>
                                 <DivInputLabel>

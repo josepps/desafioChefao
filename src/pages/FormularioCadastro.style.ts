@@ -156,3 +156,23 @@ export const SpanErro = styled.span`
     margin-left: 10px;
 
 `
+
+export const DivTeleconsulta = styled.article`
+    margin-left: -2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    
+    input{
+        height: 2rem;
+    }
+    label{
+        color: #052C2B;
+        font-weight: 800;
+        font-size: 1.2rem;
+        margin-top: 3px;
+    }
+    
+    
+
+`
