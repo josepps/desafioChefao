@@ -21,7 +21,7 @@ function PopupWhats() {
   return (
     <div className='container'>
       <a className='modal-button' onClick={handleOpenModal}>
-        Aguardar Consulta
+        Agendar Consulta
       </a>
       <Modal className='modal'
         isOpen={modalIsOpen}
