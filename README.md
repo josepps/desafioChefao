@@ -4,7 +4,7 @@ O CaçaVets é um site no qual visa facilitar a comunicação entre os tutores n
 
 <div align="center">
 
-![Alt text](img/cacavet.png)
+![Alt text](./src/img/cacavet.png)
 </div>
 <br>
 
