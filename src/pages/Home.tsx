@@ -33,7 +33,10 @@ function Home() {
                 <a href="#CacarVets"><Setaparabaixo><img src={SetaIcon} alt="seta para rolagem de tela" /></Setaparabaixo></a>
             </SectionBusca>
             <TelaCacarVets>
-                <a name="CacarVets"><h2>Como caçar vets</h2></a>
+                <a 
+                // @ts-ignore
+                name="CacarVets">
+                <h2>Como caçar vets</h2></a>
                 
                 <DivDosCards>
                     <CardPassoaPasso>
