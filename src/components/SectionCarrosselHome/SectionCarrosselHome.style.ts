@@ -7,7 +7,7 @@ export const CarrosselSection = styled.section`
     text-align: center;
     h2{
         margin-bottom: 3rem;
-        color: #4B4B4B;
+        color: #0E403F;
         font-weight: 800;
         font-size: 48px;
         line-height: 58px;  

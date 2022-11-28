@@ -6,6 +6,7 @@ export const DivCardComponent = styled.div`
     grid-template-columns: 1fr 1fr;
     max-width: 500px;
     max-height: 280px;
+    min-height: 280px;
     padding: 1rem 2rem;
     column-gap: 1rem;
     justify-content: center;

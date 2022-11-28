@@ -50,7 +50,7 @@ export const DivInicialDescricaoHome = styled.div`
 
 export const DivImagensInicialHome = styled.div`
     flex-direction: column;
-    width: 350px; 
+    width: 250px; 
 
 `
 
