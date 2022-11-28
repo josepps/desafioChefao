@@ -26,9 +26,10 @@ export const VoceVetDescricao = styled.div`
         width: 460px;
     }
 
-    a{
+    button{
         margin-top: 2rem;
         width: 60%;
+        padding: 5%;
     }
 
 `

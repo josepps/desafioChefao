@@ -1,4 +1,4 @@
-import {DivCardCarrossel} from "./CardCarrossel.style"
+import {DivCardCarrossel, DivImgCardCarrossel} from "./CardCarrossel.style"
 import CardImage from "./../../../public/ImagemCard.png"
 import EstrelaCard from "./../../../public/EstrelaCard.svg"
 
@@ -8,6 +8,7 @@ export type CardCarrosselProps = {
     name: string;
     petsName: string;
     comentario: string;
+    img: string;
 
 }
 
@@ -15,7 +16,7 @@ export type CardCarrosselProps = {
 function CardCarrossel(props: CardCarrosselProps){
     return(
         <DivCardCarrossel>
-            <div><img src={CardImage} alt="Imagem do Tutor" /></div>
+            <DivImgCardCarrossel><img src={props.img} alt="Imagem do Tutor" /></DivImgCardCarrossel>
             <h4>{props.name}</h4>
             <h5>Tutor do(a) {props.petsName}</h5>
             <div>

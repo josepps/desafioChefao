@@ -17,12 +17,12 @@ function CarrosselSlider(){
             grabCursor={true}
             className="Carrossel"
         >
-            <SwiperSlide><CardCarrossel name="José Augusto" petsName="Bilibibi" comentario="Achei uma bosta"/></SwiperSlide>
-            <SwiperSlide><CardCarrossel name="Marcia Chaves" petsName="Boroca" comentario="Ruim que só"/></SwiperSlide>
-            <SwiperSlide><CardCarrossel name="Marcos Failzo" petsName="Van Basten" comentario="Melhor de todos os tempos"/></SwiperSlide>
-            <SwiperSlide><CardCarrossel name="Junior Cacau" petsName="Manguinha" comentario="Melhor coisa que ja utilizei em minha vida"/></SwiperSlide>
-            <SwiperSlide><CardCarrossel name="Junior Cacau" petsName="Manguinha" comentario="Melhor coisa que ja utilizei em minha vida"/></SwiperSlide>
-            <SwiperSlide><CardCarrossel name="Junior Cacau" petsName="Manguinha" comentario="Melhor coisa que ja utilizei em minha vida"/></SwiperSlide>
+            <SwiperSlide><CardCarrossel name="Maria Santos" petsName="Bilibibi" comentario="Amei a facilidade" img='https://avatars.githubusercontent.com/u/104741998?v=4'/></SwiperSlide>
+            <SwiperSlide><CardCarrossel name="Arnaldo Chaves" petsName="Antonio" comentario="Bem legal" img='https://avatars.githubusercontent.com/u/106413273?v=4'/></SwiperSlide>
+            <SwiperSlide><CardCarrossel name="Renan Machini" petsName="Van Basten" comentario="Ideia muito boa" img="https://avatars.githubusercontent.com/u/109393052?v=4"/></SwiperSlide>
+            <SwiperSlide><CardCarrossel name="Samara Almeida" petsName="Manguinha" comentario="Adorei" img="https://avatars.githubusercontent.com/u/100536475?v=4"/></SwiperSlide>
+            <SwiperSlide><CardCarrossel name="Junior Cacau" petsName="Toninho" comentario="Muito prático" img="https://avatars.githubusercontent.com/u/109320300?v=4"/></SwiperSlide>
+            <SwiperSlide><CardCarrossel name="Michelle Santana" petsName="Tilapia" comentario="Bacana" img="https://avatars.githubusercontent.com/u/105086169?v=4"/></SwiperSlide>
         </Swiper>
     )
 }
