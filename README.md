@@ -1,6 +1,6 @@
 # CaçaVet
 
-O CaçaVets é um site no qual visa facilitar a comunicação entre os tutores na busca por pessoas veterinárias para atendimentos presenciais ou por teleconsultas. 
+O CaçaVets é um site no qual visa facilitar a comunicação entre os tutores na busca por pessoas veterinárias para atendimentos presenciais ou teleconsultas. 
 
 <div align="center">
 
