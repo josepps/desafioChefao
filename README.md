@@ -4,7 +4,7 @@ O CaçaVets é um site no qual visa facilitar a comunicação entre os tutores n
 
 <div align="center">
 
-![Alt text](../logo-2.png)
+![Alt text](img/cacavet.png)
 </div>
 <br>
 
@@ -14,7 +14,7 @@ O CaçaVets é um site no qual visa facilitar a comunicação entre os tutores n
 
 - Login de usuário com verificação de e-mail e senha;
 
-- Edição de dados cadastrais
+- Edição de dados cadastrais;
 
 - Filtragem de veterinários por localização a partir do CEP;
 
