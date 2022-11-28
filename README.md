@@ -2,17 +2,19 @@
 
 O CaçaVets é um site no qual visa facilitar a comunicação entre os tutores na busca por pessoas veterinárias para atendimentos presenciais ou por teleconsultas. 
 
+<div align="center">
 
+![Alt text](../logo-2.png)
+</div>
+<br>
 
-# Funcionalidades da API
+# Funcionalidades
 
 - Cadastro de Veterinários que dispôem todas suas informações para agendamento de consultas;
 
 - Login de usuário com verificação de e-mail e senha;
 
-- Edição de dados realizado após a autenticação do veterinário;
-
-- Exclusão de dados após a autenticaçãoa de usuário;
+- Edição de dados cadastrais
 
 - Filtragem de veterinários por localização a partir do CEP;
 
