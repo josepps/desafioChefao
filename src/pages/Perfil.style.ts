@@ -26,7 +26,7 @@ export const Container = styled.div`
 
   img {
     border-radius: 50%;
-    width: 15vw;
+    width: 25vw;
   }
   span {
     font-family: "Lato";
