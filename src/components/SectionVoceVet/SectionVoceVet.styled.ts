@@ -5,7 +5,7 @@ import styled from "styled-components";
 export const VoceVetSection = styled.section`
     background-color: #017369;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 5rem 3rem;
     
@@ -24,6 +24,11 @@ export const VoceVetDescricao = styled.div`
         font-size: 1.5rem;
         line-height: 1.6rem;
         width: 460px;
+    }
+
+    a{
+        margin-top: 2rem;
+        width: 60%;
     }
 
 `

@@ -9,7 +9,8 @@ export const ImputFiltroStyle = styled.div`
     border-radius: 15px;
     padding-left: 3%;
     position: relative;
-
+    filter: drop-shadow(0px 5.98802px 5.98802px rgba(0, 0, 0, 0.25));
+    
     .ImputList {
         height: 30px;
         border: none;
