@@ -17,4 +17,12 @@ export const SectionPerguntas = styled.div`
         font-size: 48px;
         line-height: 58px;
     }
+
+    h3{
+        margin-bottom: 1rem;
+        color: #0E403F;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 40px;
+    }
 `

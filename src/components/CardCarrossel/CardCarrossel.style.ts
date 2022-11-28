@@ -40,3 +40,12 @@ export const DivCardCarrossel = styled.div`
 
 `
 
+export const DivImgCardCarrossel = styled.div`
+    img{
+        width: 135px;
+        height: 135px;
+        border-radius: 50%;
+    }
+
+`
+

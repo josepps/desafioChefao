@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-    width: 100vw;
+    width: 100%;
     margin: 100px auto;
     display: flex;
     flex-direction: column;
@@ -30,6 +30,7 @@ export const ButtonLogin = styled.button`
     box-shadow: 0px 2px 28px rgba(0, 0, 0, 0.25);
     cursor: pointer;
     margin-top:25px;
+    margin-left: 80px;
 `
 
 export const RecoverPassword = styled.a`
