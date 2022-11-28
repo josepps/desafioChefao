@@ -58,24 +58,36 @@ function Cadastro(){
                         <DivFormulario1>
                             <DivInputLabel>
                                 <label>Nome Completo</label>
-                                <InputMedio placeholder="Ex: Valdemar Almeida" type="text" name="name" {...register("name") }></InputMedio>
+                                <InputMedio placeholder="Ex: Valdemar Almeida" type="text" 
+                                // @ts-ignore
+                                name="name" 
+                                {...register("name") }></InputMedio>
                                 <SpanErro>{errors.name?.message}</SpanErro>
                             </DivInputLabel>
                             <DivInputLabel>
                                 <label>CRMV</label>
-                                <InputMedio placeholder="Ex: 63537-97" type="text" name="crmv" {...register("crmv")}></InputMedio>
+                                <InputMedio placeholder="Ex: 63537-97" type="text" 
+                                // @ts-ignore
+                                name="crmv" 
+                                {...register("crmv")}></InputMedio>
                                 <SpanErro>{errors.crmv?.message}</SpanErro>
                             </DivInputLabel>
                         </DivFormulario1>
                         <DivFormulario1>
                             <DivInputLabel>
                                 <label>WhatsApp</label>
-                                <InputMedio placeholder="Ex: 11930992123" type="number" name="phoneNumber" {...register("phoneNumber")}></InputMedio>
+                                <InputMedio placeholder="Ex: 11930992123" type="number" 
+                                // @ts-ignore
+                                name="phoneNumber" 
+                                {...register("phoneNumber")}></InputMedio>
                                 <SpanErro>{errors.phoneNumber?.message}</SpanErro>
                             </DivInputLabel>
                             <DivInputLabel>
                                 <label>Email profissional</label>
-                                <InputMedio placeholder="Ex: valdemardas23@gmail.com" type="email" name="email" {...register("email")}></InputMedio>
+                                <InputMedio placeholder="Ex: valdemardas23@gmail.com" type="email" 
+                                // @ts-ignore
+                                name="email" 
+                                {...register("email")}></InputMedio>
                                 <SpanErro>{errors.email?.message}</SpanErro>
                             </DivInputLabel>
                         </DivFormulario1>
@@ -83,7 +95,10 @@ function Cadastro(){
                             <DivFormulario1>
                                 <DivInputLabel>
                                     <label>CEP</label>
-                                    <InputPequeno placeholder= "13230-222" type="number" name="code" {...register("code")}></InputPequeno>
+                                    <InputPequeno placeholder= "13230-222" type="number" 
+                                    // @ts-ignore
+                                    name="code" 
+                                    {...register("code")}></InputPequeno>
                                     <SpanErro>{errors.code?.message}</SpanErro>
                                 </DivInputLabel>
                             </DivFormulario1>      
@@ -91,7 +106,10 @@ function Cadastro(){
                         <DivFormulario1>
                             <DivInputLabel>
                                 <label>Senha</label>
-                                <InputMedio placeholder="" type="password" name="password" {...register("password")}></InputMedio>
+                                <InputMedio placeholder="" type="password" 
+                                // @ts-ignore
+                                name="password" 
+                                {...register("password")}></InputMedio>
                                 <SpanErro>{errors.password?.message}</SpanErro>
                             </DivInputLabel>
                             <DivInputLabel>
@@ -103,31 +121,46 @@ function Cadastro(){
                         <DivFormulario1>
                             < DivInputLabel>
                                 <label>Link de imagem para o perfil</label>
-                                <InputMedio type="text" name="avatar" {...register("avatar")}/>
+                                <InputMedio type="text"
+                                // @ts-ignore 
+                                name="avatar" 
+                                {...register("avatar")}/>
                                 <SpanErro>{errors.avatar?.message}</SpanErro>
                             </ DivInputLabel>
                             < DivInputLabel>
                                 <label>Especialidade</label>
-                                <InputMedio type="text" name="specialty" {...register("specialty")}/>
+                                <InputMedio type="text" 
+                                // @ts-ignore
+                                name="specialty" 
+                                {...register("specialty")}/>
                                 <SpanErro>{errors.specialty?.message}</SpanErro>
                             </ DivInputLabel>
                         </DivFormulario1>
-                        {/* <DivFormulario1> */}
+                        
                             <DivValores>
                                 < DivInputLabel>
                                     <label>Valor consulta Comercial</label>
-                                    <InputPequeno type="text"  name="queryValue" {...register("queryValue")}/>
+                                    <InputPequeno type="text"  
+                                    // @ts-ignore
+                                    name="queryValue" 
+                                    {...register("queryValue")}/>
                                     <SpanErro>{errors.queryValue?.message}</SpanErro> 
                                 </ DivInputLabel>
                                 < DivInputLabel>
                                     <label>Valor consulta Plantão 24h</label>
-                                    <InputPequeno type="text" name="queryDutyValue" {...register("queryDutyValue")}/>
+                                    <InputPequeno type="text" 
+                                    // @ts-ignore
+                                    name="queryDutyValue" 
+                                    {...register("queryDutyValue")}/>
                                     <SpanErro>{errors.queryDutyValue?.message}</SpanErro> 
                                 </ DivInputLabel>
                                 < DivInputLabel> 
                                     <label>Atende remotamente?</label>
                                     <DivTeleconsulta>
-                                        <InputPequeno type="checkbox" name="teleconsultation" {...register("teleconsultation")} /> 
+                                        <InputPequeno type="checkbox" 
+                                        // @ts-ignore
+                                        name="teleconsultation" 
+                                        {...register("teleconsultation")} /> 
                                         <label>Remoto</label>
                                     </DivTeleconsulta>
                                     
@@ -137,17 +170,26 @@ function Cadastro(){
                             <div>
                                 <DivInputLabel>
                                     <label>Sobre mim</label>
-                                    <TextArea name="aboutMe" {...register("aboutMe")}></TextArea>
+                                    <TextArea 
+                                    // @ts-ignore
+                                    name="aboutMe" 
+                                    {...register("aboutMe")}></TextArea>
                                     <SpanErro>{errors.aboutMe?.message}</SpanErro> 
                                 </DivInputLabel>
                                 <DivInputLabel>
                                     <label>Formação</label>
-                                    <TextArea name="formation" {...register("formation")}></TextArea>
+                                    <TextArea 
+                                    // @ts-ignore
+                                    name="formation" 
+                                    {...register("formation")}></TextArea>
                                     <SpanErro>{errors.formation?.message}</SpanErro> 
                                 </DivInputLabel>
                                 <DivInputLabel>
                                     <label>Experiência</label>
-                                    <TextArea name="experience" {...register("experience")}></TextArea>
+                                    <TextArea 
+                                    // @ts-ignore
+                                    name="experience" 
+                                    {...register("experience")}></TextArea>
                                     <SpanErro>{errors.experience?.message}</SpanErro> 
                                 </DivInputLabel>
                             </div>
