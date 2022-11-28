@@ -3,9 +3,9 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: right;
+  justify-content: center;
   max-width: 100vw;
-  margin: 80px;
+  margin: 150px;
   padding-left: 50px;
 
   .perfil__vet {
@@ -26,6 +26,7 @@ export const Container = styled.div`
 
   img {
     border-radius: 50%;
+    width: 15vw;
   }
   span {
     font-family: "Lato";
@@ -67,25 +68,17 @@ export const ConsultaValor = styled.div`
   }
 `;
 export const AboutMe = styled.div`
-  display: grid;
-  justify-content: end;
-  margin: 90px;
-  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  top: 150px;
+  padding-bottom: 50px;
+  margin: 250px;
+  margin-top: 40px;
   font-family: Lato;
   font-size: 24px;
   font-weight: 400;
   line-height: 29px;
   letter-spacing: 0.025em;
-  text-align: left;
-  gap: 30px;
-
-  p {
-    font-family: Lato;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 30px;
-    letter-spacing: 0.025em;
-    text-align: left;
-    justify-content: center;
-  }
+  text-align: start;
 `;
