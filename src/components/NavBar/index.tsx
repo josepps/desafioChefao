@@ -2,6 +2,7 @@ import logo from "../../../public/logo.png";
 // import { FaPlus } from 'react-icons/fa';
 import { Header } from "./NavBar.style"
 import CadastrarServico from "../ButtonCadastrarServico"
+import { Link } from "react-router-dom";
 
 //Colocar Caminhos
 //Colocar background na página que está
@@ -14,16 +15,16 @@ function NavBar() {
         <>
             <Header>
                 <div>
-                    <a href="/">
+                    <Link to="/">
                         <img src={logo} alt="Logo" />
                         <h2>CaçaVet</h2>
-                    </a>
+                    </Link>
                 </div>
                 <nav>
-                    <a className="navegacaoNavBat" href="/">Início</a>
-                    <a className="navegacaoNavBat" href="/vets">Vets</a>
+                    <Link className="navegacaoNavBat" to="/">Início</Link>
+                    <Link className="navegacaoNavBat" to="/vets">Vets</Link>
                     <a className="navegacaoNavBat" href="#SectionFAQ">FAQ</a>
-                    <a className="navegacaoNavBat" href="/login">Acessar conta</a>
+                    <Link className="navegacaoNavBat" to="/login">Acessar conta</Link>
                     <CadastrarServico />
                 </nav>
             </Header>

@@ -1,4 +1,4 @@
-import {Carrossel,CarrosselSection, ContainerCarrossel} from "./SectionCarrosselHome.style"
+import {CarrosselSection} from "./SectionCarrosselHome.style"
 import CardCarrossel from "./../CardCarrossel"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import {Navigation, Thumbs} from 'swiper'
