@@ -8,6 +8,7 @@ import VectorLocal from "./../../../public/VectorLocal.svg";
 import ButtonWhatsap from "../ButtonWhatsap";
 import { Link } from "react-router-dom";
 
+
 export type CardVetsProps = {
   name: string;
   queryValue: number;
@@ -21,6 +22,9 @@ export type CardVetsProps = {
 };
 
 function CardProfissionalVet(props: CardVetsProps) {
+
+  
+
   return (
     <Link to={`/vets/${props.userId}`}>
       <DivCardComponent>
@@ -29,7 +33,7 @@ function CardProfissionalVet(props: CardVetsProps) {
           <div>
             <img src={props.avatar} alt={props.name} />
           </div>
-          <span>{props.teleconsultation}</span>
+          {props.teleconsultation && (<span>Remoto</span>)}
           <span>Presencial</span>
         </DivImgInfosCardVet>
         <DivEspecialidade>

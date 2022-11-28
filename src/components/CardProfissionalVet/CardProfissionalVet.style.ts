@@ -71,8 +71,9 @@ export const DivEspecialidade = styled.div`
         line-height: 24px;
     }
 
-    button{
-        width: 1rem;
+    a{
+        height: 3rem;
+        
     }
 
 `
