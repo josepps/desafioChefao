@@ -9,14 +9,33 @@ import api from "../services/api";
 import CardProfissionalVet, {
   CardVetsProps,
 } from "../components/CardProfissionalVet";
-import EstrelaCard from "./../../../public/EstrelaCard.svg";
+import EstrelaCard from "../../public/EstrelaCard.svg";
+
+type PerfilProps = {
+  name: string;
+  queryValue: number;
+  queryDutyValue: number;
+  id: number;
+  avatar: string;
+  crmv: number;
+  aboutMe: string;
+  specialty: string;
+  experience: string;
+  formation: string;
+  address: {
+    address: string;
+    district: string;
+    city: string;
+    state: string;
+    code: number;
+    complement: string;
+  };
+};
 
 function Perfil() {
   const { id } = useParams();
   const [isLoading, setIsLoading] = useState(true);
-  const [vetsData, setVetsData] = useState<CardProfissionalVet>(
-    {} as CardVetsProps
-  );
+  const [vetsData, setVetsData] = useState<PerfilProps>({} as PerfilProps);
 
   async function getVetsData() {
     const { data } = await api.get("vets/" + id);
@@ -51,7 +70,6 @@ function Perfil() {
         <div className="foto__perfil">
           <img src={vetsData.avatar} alt="foto-perfil" />
         </div>
-
         <div className="perfil__vet">
           <Title>{vetsData.name}</Title>
           <span>CRMV: {vetsData.crmv}</span>
