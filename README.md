@@ -1,4 +1,4 @@
-# CaçaVets
+# CaçaVet
 
 O CaçaVets é um site no qual visa facilitar a comunicação entre os tutores na busca por pessoas veterinárias para atendimentos presenciais ou por teleconsultas. 
 
@@ -40,3 +40,11 @@ npm run dev
 ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
 ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
 ![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
+
+## Devs
+
+<a href="https://github.com/josepps"><img src="https://avatars.githubusercontent.com/u/106413273?v=4" width="100px" height="100px"></a>
+<a href="https://github.com/GuilhermeRibeiro01"><img src="https://avatars.githubusercontent.com/u/109393052?v=4" width="100px" height="100px"></a>
+<a href="https://github.com/alonealines"><img src="https://avatars.githubusercontent.com/u/100536475?v=4" width="100px" height="100px"></a>
+<a href="https://github.com/RafaelGroetaers"><img src="https://avatars.githubusercontent.com/u/93354737?v=4" width="100px" height="100px"></a>
+<a href="https://github.com/andreolimao"><img src="https://avatars.githubusercontent.com/u/109320300?v=4" width="100px" height="100px"></a>
