@@ -16,4 +16,9 @@ export const BtnWhatsap = styled.a`
         font-size: 2.5rem;
         margin-left:10px;
     }
+
+    @media only screen and (max-width: 600px) {
+    padding: 0.75rem;
+    font-size: 0.75rem;
+}
 `;

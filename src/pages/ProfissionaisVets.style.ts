@@ -16,4 +16,10 @@ export const DivCardProfissionais = styled.div`
     column-gap: 5rem;
     row-gap: 2rem;
     justify-content: center;
+
+    @media only screen and (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+}
 `
+

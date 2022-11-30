@@ -17,4 +17,10 @@ export const BtnCadastrarServico = styled.button`
             .FaplusNavBAr {
                 margin-left: 10px;
             }
+
+            @media only screen and (max-width: 500px) {
+                padding: 5px 10px;
+                font-size: 10px;
+                border-radius: none;
+            }
 `;
