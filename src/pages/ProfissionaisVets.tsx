@@ -56,11 +56,14 @@ function ProfissionaisVets(){
                 <DivCardProfissionais>
                     {vetsList
                     .filter(
-                        (item: any) =>
-                          item.address.city.includes(ceep) ||
+                        // @ts-ignore
+                        (item) =>
+                          String(item.address.city).includes(ceep) ||
                           String(item.address.state) === ceep    
                       )
-                    .map((item: any, index: any) => {
+                    .map(
+                        // @ts-ignore
+                        (item, index) => {
                     return (
                         <CardProfissionalVet
                             key={index}
