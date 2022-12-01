@@ -2,7 +2,7 @@ import { useEffect,useState } from "react";
 import CardProfissionalVet, {CardVetsProps}from "../components/CardProfissionalVet";
 import Footer from "../components/Footer";
 import { ImputFiltroStyle } from "../components/ImputFiltro/ImputFiltro";
-import NavBar from "../components/NavBar";
+import NavBar from "../components/NavBar/NavBar";
 import api from "../services/api";
 import {SectionProfissionais, DivCardProfissionais} from "./ProfissionaisVets.style"
 

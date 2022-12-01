@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
-import NavBar from "../components/NavBar";
+import NavBar from "../components/NavBar/NavBar";
 import { Container, Title, ConsultaValor, AboutMe } from "./Perfil.style";
 import Footer from "../components/Footer";
 import ButtonWhatsap from "../components/ButtonWhatsap";

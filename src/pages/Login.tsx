@@ -1,6 +1,6 @@
 import Footer from "../components/Footer";
 import FormLogin from "../components/FormLogin";
-import NavBar from "../components/NavBar";
+import NavBar from "../components/NavBar/NavBar";
 
 function Login() {
 

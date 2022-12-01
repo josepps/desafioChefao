@@ -1,6 +1,6 @@
 
 import Footer from "../components/Footer";
-import NavBar from "../components/NavBar";
+import NavBar from "../components/NavBar/NavBar";
 import {SectionBusca, DivImagensInicialHome, DivInicialDescricaoHome, DivApresentacaoHome, ImgIconGatoCachorro, Setaparabaixo} from "./../components/SectionBuscaHome/SectionBuscaHome.style"
 import { TelaCacarVets, BolaVerde, Bolalaranja, DivDosCards, CardPassoaPasso, DivOrientacao, LinhaTracejada} from "./../components/SectionCacarVets/SectionCacarVets.styled"
 import WhatsappIcon from "./../../public/IconWhatsapp.png"

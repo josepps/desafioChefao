@@ -1,5 +1,5 @@
 import Footer from "../components/Footer";
-import NavBar from "../components/NavBar";
+import NavBar from "../components/NavBar/NavBar";
 import {SectionCadastro, DivInputLabel, DivForm, InputMedio, InputPequeno, DivImagemCadastro, DivFormulario1, DivValores, TextArea, SpanErro, DivTeleconsulta} from "./FormularioCadastro.style"
 import CachorroCadastro from "./../../public/CachorroCadastro.png"
 import axios from "axios";
