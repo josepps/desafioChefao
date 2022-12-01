@@ -25,15 +25,35 @@ export const SectionCadastro = styled.section`
         border-radius: 24px;
     }
 
+    @media screen and (max-width: 600px){
+        /* flex-direction: column; */
+        align-items: center;
+        justify-content: center;
+        padding: 5rem 1rem;
+    }
+
 `
 export const DivForm = styled.div`
     width: 500px;
+
+    @media screen and (max-width: 600px){
+        max-width: 500px;
+        flex-direction: column;
+        align-items: center;
+    }
+
 `
 
 export const DivFormulario1 = styled.div`
     display: flex;
     justify-content: space-between;
     
+
+    @media screen and (max-width: 650px){
+        max-width: 500px;
+        justify-content: space-around;
+        
+    }
 
 `
 
@@ -55,12 +75,20 @@ export const DivInputLabel = styled.div`
         font-weight: 400;
     }
 
+    @media screen and (max-width: 600px){
+        max-width: 500px;
+    }
+
 `
 
 export const InputMedio = styled.input`
     width: 15rem;
     padding: 0.5rem;
     border-radius: 1rem;
+
+    @media screen and (max-width: 600px){
+        width: 10rem;
+    }
     
 
 
@@ -70,7 +98,9 @@ export const InputPequeno = styled.input`
     width: 6rem;
     padding: 0.5rem;
     border-radius: 1rem;
-
+    @media screen and (max-width: 600px){
+        width: 10rem;        
+    }
 
 `
 
@@ -81,11 +111,17 @@ export const InputGrande = styled.input`
     border-radius: 1rem;
 
 
+
+
 `
 export const DivImagemCadastro = styled.div`
     flex-direction: column;
     display: flex;
     align-items: center;
+
+    @media screen and (max-width: 650px){
+        display: none;
+    }
 
 `
 
@@ -96,7 +132,9 @@ export const DivImagemInfos = styled.div`
     justify-content: center;
     align-items: center;
     margin-bottom: 1.5rem;
-
+    @media screen and (max-width: 600px){
+        display: none;
+    }
 
 `
 
@@ -117,6 +155,15 @@ export const DivValores =  styled.div`
     justify-content: space-between;
     text-align: center; 
     align-items: center;
+
+    @media screen and (max-width: 600px){
+        max-width: 500px;
+        display: block;
+        margin: auto;
+        margin-left: 0.75rem; 
+        
+    }
+
 `
 
 
@@ -147,6 +194,11 @@ export const TextArea = styled.textarea`
     height: 5rem;
     padding: 5px;
 
+    @media screen and (max-width: 600px){
+        max-width: 25rem;
+        text-align: center;
+    }
+
 `
 export const SpanErro = styled.span`
     font-size: 0.8rem;
@@ -172,7 +224,12 @@ export const DivTeleconsulta = styled.article`
         font-size: 1.2rem;
         margin-top: 3px;
     }
-    
+    @media screen and (max-width: 600px){
+        label{
+            margin-left: -4rem;
+        }
+        
+    }
     
 
 `

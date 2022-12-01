@@ -1,5 +1,4 @@
 import Footer from "../components/Footer";
-import NavBar from "../components/NavBar/NavBar";
 import {SectionCadastro, DivInputLabel, DivForm, InputMedio, InputPequeno, DivImagemCadastro, DivFormulario1, DivValores, TextArea, SpanErro, DivTeleconsulta} from "./FormularioCadastro.style"
 import CachorroCadastro from "./../../public/CachorroCadastro.png"
 import axios from "axios";
@@ -7,6 +6,7 @@ import {useForm, SubmitHandler} from "react-hook-form"
 import {yupResolver} from "@hookform/resolvers/yup"
 import * as yup from "yup"
 import api from "../services/api";
+import NavBar from "../components/NavBar/NavBar";
 
 type ValidationProps = {
     name: string;
@@ -47,11 +47,11 @@ function Cadastro(){
         resolver:yupResolver(validationPost)
     })
 
-    const addPost = (data: any) => api.post("/vets", data)
+    const addPost = (data: any) => api.post("/vets", data);
 
     return(
         <>
-            <NavBar/>
+            <NavBar/> 
             <SectionCadastro>
                 <DivForm>
                     <form onSubmit={handleSubmit(addPost)}>
@@ -139,7 +139,7 @@ function Cadastro(){
                         
                             <DivValores>
                                 < DivInputLabel>
-                                    <label>Valor consulta Comercial</label>
+                                    <label>Valor consulta - Comercial</label>
                                     <InputPequeno type="text"  
                                     // @ts-ignore
                                     name="queryValue" 
@@ -147,7 +147,7 @@ function Cadastro(){
                                     <SpanErro>{errors.queryValue?.message}</SpanErro> 
                                 </ DivInputLabel>
                                 < DivInputLabel>
-                                    <label>Valor consulta Plantão 24h</label>
+                                    <label>Valor consulta - Plantão 24h</label>
                                     <InputPequeno type="text" 
                                     // @ts-ignore
                                     name="queryDutyValue" 
