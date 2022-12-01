@@ -8,6 +8,16 @@ export const FooterStyle = styled.footer`
     justify-content: space-around;
     background: #F1A952;
 
+    @media only screen and (max-width: 600px){
+        padding: 0.5rem;
+        justify-content: space-between;
+    }
+    @media only screen and (max-width: 370px){
+        justify-content: center;
+        display: block;
+        height: auto;
+    }
+
     .containerLogoFooter {
 
         a {
@@ -22,6 +32,20 @@ export const FooterStyle = styled.footer`
             margin-left: 5%;
         }
         }
+        @media only screen and (max-width: 600px){
+            a{
+                max-width: 40px;
+            }
+        }
+        @media only screen and (max-width: 370px){
+            a{
+                margin-left: 3rem;
+                margin-bottom: 0.5rem;
+                
+            }
+            
+        }
+        
     }
 
     div {
@@ -34,6 +58,10 @@ export const FooterStyle = styled.footer`
             font-weight: 700;
             margin-bottom: 1%;
         }
+        @media only screen and (max-width: 580px){
+            
+        }
+       
     }
 
     .navContatoFooter {
@@ -42,6 +70,7 @@ export const FooterStyle = styled.footer`
             font-size: 1.3rem;
             color: #0E403F;
             margin-bottom: 2%;
+
         }
 
         div {
@@ -51,6 +80,20 @@ export const FooterStyle = styled.footer`
             a{
                 font-size: 3rem;
             }
+        }
+        @media only screen and (max-width: 600px){
+            a{
+                max-width: 45px;
+            }
+            h2{
+                display: none;  
+            }
+            
+        }
+    }
+    .containerInfos{
+         @media only screen and (max-width: 600px){
+            display: none;
         }
     }
 `;
