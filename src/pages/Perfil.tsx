@@ -91,10 +91,13 @@ function Perfil() {
             <h4>Valor da Consulta</h4>
             <p>Horário comercial: {vetsData.queryValue}</p>
             <p>Urgências 24h: {vetsData.queryDutyValue}</p>
-            <ButtonWhatsap />
+            <div className="botao">
+              <ButtonWhatsap />
+            </div>
           </div>
         </ConsultaValor>
       </Container>
+
       <AboutMe>
         <h2>Sobre mim</h2>
         <p>{vetsData.aboutMe}</p>

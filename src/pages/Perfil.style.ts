@@ -35,21 +35,37 @@ export const Container = styled.div`
     line-height: 29px;
   }
   @media only screen and (max-width: 600px) {
-      display:flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      gap: 20px;
-    
-      img  {
-        width: 50vw;
-      
-      }
+    display: grid;
+    justify-content: end;
+    margin: 50px;
 
-      img, .perfil__vet {
-        gap: 20px;
-      }
+    img {
+      width: 40vw;
+      position: absolute;
+      left: 5%;
+    }
+
+    .perfil__vet {
+      gap: 10px;
+      position: relative;
+      left: 40%;
+      top: -60px;
+      margin: 20px;
+      word-wrap: break-word;
+    }
+
+    h4 {
+      display: grid;
+      grid-template-columns: 2fr;
+      font-size: 15px;
+    }
+
+    span {
+      font-size: 15px;
+      line-height: 20px;
+      width: min-content;
+    }
   }
-
 `;
 export const Title = styled.h1`
   font-family: "Lato";
@@ -60,6 +76,10 @@ export const Title = styled.h1`
   left: 444.19px;
   top: 258px;
   color: #4b4b4b;
+
+  @media only screen and (max-width: 600px) {
+    font-size: 20px;
+  }
 `;
 
 export const ConsultaValor = styled.div`
@@ -87,13 +107,36 @@ export const ConsultaValor = styled.div`
     .info__valor {
       display: flex;
       flex-direction: row;
-      gap: 0.5em;
-      padding: 0.5em;
-      font-size: 0.75em;
+      gap: 2em;
+      padding: 2em;
+      font-size: 4px;
+      position: absolute;
+      left: 50px;
+      bottom: 15%;
+      margin-right: 50px;
+      align-items: baseline;
+      border-radius: 20px;
+      flex-basis: 50%;
+
+      h4 {
+        font-size: 18px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+
+    .botao {
+      position: relative;
+      top: 100px;
+      right: 50%;
+      margin: 40px;
     }
+
   }
 `;
-export const AboutMe = styled.div`
+
+  export const AboutMe = styled.div`
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -108,21 +151,31 @@ export const AboutMe = styled.div`
   letter-spacing: 0.025em;
   text-align: start;
 
+  h2 {
+    color: black;
+    margin-left: 0%;
+  }
+
   @media only screen and (max-width: 600px) {
-    gap: 20px;
-    margin: 0 auto;
+    display: grid;
+    justify-items: start;
+    gap: 40px;
     font-size: 15px;
     line-height: 20px;
     letter-spacing: none;
     justify-content: center;
     align-items: center;
-margin: 60px;
-    
-h2 {
+    margin: 90px;
+
+    h2 {
       color: black;
-      justify-content: center;
+      justify-content: start;
+      font-size: 1.5rem;
+    }
+
+    p {
+      font-weight: 500;
+      line-height: 1.5rem;
     }
   }
 `;
-
-

@@ -18,7 +18,8 @@ export const DivCardComponent = styled.div`
 
     @media only screen and (max-width: 600px) {
     display: flex;
-    padding: 1rem;
+    flex-direction: row;
+    padding: 2rem;
 }
 `
 
