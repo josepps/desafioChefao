@@ -34,6 +34,22 @@ export const Container = styled.div`
     font-weight: 400;
     line-height: 29px;
   }
+  @media only screen and (max-width: 600px) {
+      display:flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 20px;
+    
+      img  {
+        width: 50vw;
+      
+      }
+
+      img, .perfil__vet {
+        gap: 20px;
+      }
+  }
+
 `;
 export const Title = styled.h1`
   font-family: "Lato";
@@ -66,6 +82,16 @@ export const ConsultaValor = styled.div`
     padding: 10px;
     font-size: 18px;
   }
+
+  @media only screen and (max-width: 600px) {
+    .info__valor {
+      display: flex;
+      flex-direction: row;
+      gap: 0.5em;
+      padding: 0.5em;
+      font-size: 0.75em;
+    }
+  }
 `;
 export const AboutMe = styled.div`
   display: flex;
@@ -81,4 +107,22 @@ export const AboutMe = styled.div`
   line-height: 29px;
   letter-spacing: 0.025em;
   text-align: start;
+
+  @media only screen and (max-width: 600px) {
+    gap: 20px;
+    margin: 0 auto;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: none;
+    justify-content: center;
+    align-items: center;
+margin: 60px;
+    
+h2 {
+      color: black;
+      justify-content: center;
+    }
+  }
 `;
+
+
