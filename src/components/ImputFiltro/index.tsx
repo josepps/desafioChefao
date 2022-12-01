@@ -32,10 +32,10 @@ function ImputFiltro() {
                     </datalist>
             </div>
             <div>
-                <input className="ImputLocal" type="text" placeholder="Ex: 00000-000" value={ceep} onChange={(event) => 
+                <input className="ImputLocal" type="text" placeholder="Ex: Rio de Janeiro" value={ceep} onChange={(event) => 
     setCeep(event.target.value) }/>
             </div>
-            <a href={`/vets?modalidade=${presencial}&especialidade=${especialidade}&ceep=${ceep}`} >Buscar</a>
+            <a href={`/vets?modalidade=${presencial}&specialidade=${especialidade}&cep=${ceep}`} >Buscar</a>
         </ImputFiltroStyle>
     )
 }

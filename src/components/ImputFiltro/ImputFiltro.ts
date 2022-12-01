@@ -10,12 +10,24 @@ export const ImputFiltroStyle = styled.div`
     padding-left: 3%;
     position: relative;
     filter: drop-shadow(0px 5.98802px 5.98802px rgba(0, 0, 0, 0.25));
+
+    @media screen and (max-width: 600px){
+        display: block;
+        height: 35px;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 15px;
+    }
     
     .ImputList {
         height: 30px;
         border: none;
         border-right: 1px solid #000;
         padding: 0 10px;
+        @media screen and (max-width: 600px){
+            display: none;
+        }
+       
     }
 
     .ImputList:focus {
@@ -26,11 +38,18 @@ export const ImputFiltroStyle = styled.div`
     .ImputLocal {
         border: none;
         padding: 0 10%;
+        @media screen and (max-width: 600px){
+            height: 100%;
+            padding: 10px 0;
+
+        }
+       
     }
 
     .ImputLocal:focus {
     box-shadow: 0 0 0 0;
     outline: 0;
+    
 }
 
     a {
@@ -47,6 +66,11 @@ export const ImputFiltroStyle = styled.div`
         display: flex;
         align-items: center;
         justify-content: center;
-        color: #fff;
+        color: black;
+
+        @media screen and (max-width: 600px){
+            top: 0;
+            width: 20%;
+        }
     }
 `;
