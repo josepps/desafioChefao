@@ -16,6 +16,12 @@ export const Container = styled.section`
     }
     img{
         max-width: 12rem;
+        min-width: 5rem;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 `
 export const ButtonLogin = styled.button`
@@ -30,7 +36,7 @@ export const ButtonLogin = styled.button`
     box-shadow: 0px 2px 28px rgba(0, 0, 0, 0.25);
     cursor: pointer;
     margin-top:25px;
-    margin-left: 80px;
+    
 `
 
 export const RecoverPassword = styled.a`
@@ -50,7 +56,7 @@ export const Label = styled.span`
 export const Input = styled.input`
     border: 1.5px solid #D1D1D1;
     border-radius: 30px;
-    min-width: 60vh;
+    min-width: 60%;
     font-size: 18px;
     padding: 25px;
     margin-bottom:15px;
