@@ -13,12 +13,12 @@ function Footer() {
                     <h2>CaçaVet</h2>
                 </a>
             </div>
-            <div>
+            <div className="containerInfos">
                 <a href="#">FAQ</a>
                 <a href="#">Acessar minha conta</a>
                 <a href="#">Cadastrar meu serviço</a>
             </div>
-            <div>
+            <div className="containerInfos">
                 <a href="#">Termos de Uso</a>
                 <a href="#">Política de Privacidade</a>
                 <a href="#">Profissionais vets</a>
