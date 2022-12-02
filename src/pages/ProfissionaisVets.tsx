@@ -60,8 +60,8 @@ function ProfissionaisVets(){
                     .filter(
                         // @ts-ignore
                         (item) =>
-                          String(item.address.city).includes(code) ||
-                          String(item.address.state) === ceep    
+                          String(item.address.city).includes(String(code)) ||
+                          String(item.address.state) === String(ceep)    
                       )
                     .map(
                         // @ts-ignore
