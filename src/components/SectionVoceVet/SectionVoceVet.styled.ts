@@ -8,6 +8,11 @@ export const VoceVetSection = styled.section`
     justify-content: center;
     align-items: center;
     padding: 5rem 3rem;
+
+
+    @media only screen and (max-width: 600px){
+        flex-direction: column;
+    }
     
 `
 
@@ -32,11 +37,37 @@ export const VoceVetDescricao = styled.div`
         padding: 5%;
     }
 
+    @media only screen and (max-width: 600px){
+        text-align: center;
+        order: 1;
+        h3{
+            font-weight: 900;
+            font-size: 2rem;
+            line-height: 3.1rem;
+            margin-bottom: 1.5rem;
+        }
+        p{
+            font-weight: 600;
+            font-size: 1rem;
+            line-height: 1.6rem;
+            width: 460px;
+        }
+        button{
+            margin: auto;
+            margin-top: 1.5rem;
+        }
+    }
+
 `
 
 
 export const VoceVetImage = styled.div`
     img{
         max-width: 25rem;
+    }
+    @media only screen and (max-width: 600px){
+        img{
+            width: 15rem;
+        }
     }
 `

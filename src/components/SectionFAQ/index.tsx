@@ -5,7 +5,7 @@ import {SectionPerguntas} from "./SectionFAQ.styled"
 function SectionFAQ(){
     return(
         <SectionPerguntas id="SectionFAQ">
-            <h2>FAQ</h2>
+            <h2>Perguntas frequentes</h2>
             <h3>Veterinários</h3>
             <CardPerguntas/>
             <CardPerguntas/>

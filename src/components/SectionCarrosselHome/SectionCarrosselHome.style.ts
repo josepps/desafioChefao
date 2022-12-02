@@ -12,5 +12,8 @@ export const CarrosselSection = styled.section`
         font-size: 48px;
         line-height: 58px;  
     }
+    @media only screen and (max-width: 800px){
+        display: none;
+    }
 
 ` 

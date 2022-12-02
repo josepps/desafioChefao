@@ -1,6 +1,5 @@
 
 import Footer from "../components/Footer";
-import NavBar from "../components/NavBar/NavBar";
 import {SectionBusca, DivImagensInicialHome, DivInicialDescricaoHome, DivApresentacaoHome, ImgIconGatoCachorro, Setaparabaixo} from "./../components/SectionBuscaHome/SectionBuscaHome.style"
 import { TelaCacarVets, BolaVerde, Bolalaranja, DivDosCards, CardPassoaPasso, DivOrientacao, LinhaTracejada} from "./../components/SectionCacarVets/SectionCacarVets.styled"
 import WhatsappIcon from "./../../public/IconWhatsapp.png"
@@ -13,35 +12,36 @@ import SetaIcon from "./../../public/setaparabaixo.png"
 import SectionCarrosselHome from "../components/SectionCarrosselHome";
 import SectionFAQ from "../components/SectionFAQ";
 import SectionVoceVet from "../components/SectionVoceVet";
+import NavBar from "../components/NavBar/NavBar";
 
 function Home() {
 
     return(
         <>
-            <NavBar/>
+            <NavBar/> 
             <SectionBusca>
                 <DivApresentacaoHome>
                     <DivInicialDescricaoHome>
-                        <h1>Vets com o cuidado e carinho que seu pet merece</h1>
-                        <p>Encontre excelentes vets por local e/ou especialidade</p>
+                        <h1>Veterinários com o cuidado e carinho que seu pet merece</h1>
+                        <p>Encontre excelentes veterinários por local e/ou especialidade</p>
                     </DivInicialDescricaoHome>
                     <DivImagensInicialHome>
                         <ImgIconGatoCachorro src={IconGatoCachorro} alt="Gato e cachorro"></ImgIconGatoCachorro>
                     </DivImagensInicialHome>
                 </DivApresentacaoHome>
-                <ImputFiltro />
+                <ImputFiltro /> 
                 <a href="#CacarVets"><Setaparabaixo><img src={SetaIcon} alt="seta para rolagem de tela" /></Setaparabaixo></a>
             </SectionBusca>
             <TelaCacarVets>
                 <a 
                 // @ts-ignore
-                name="CacarVets">
-                <h2>Como caçar vets</h2></a>
+                id="CacarVets">
+                <h2>Como caçar Veterinários</h2></a>
                 
                 <DivDosCards>
                     <CardPassoaPasso>
                         <Bolalaranja><img src={LocalidadeIcon} alt="Pesquisa por localidade" /></Bolalaranja>
-                        <DivOrientacao><h3>Busque</h3><p>vets por local e/ou especialidade</p></DivOrientacao>
+                        <DivOrientacao><h3>Busque</h3><p>veterinários por local e/ou especialidade</p></DivOrientacao>
                     </CardPassoaPasso>
                     <LinhaTracejada></LinhaTracejada>
                     <CardPassoaPasso>

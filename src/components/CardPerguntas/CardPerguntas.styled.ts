@@ -8,6 +8,7 @@ export const PerguntasFrequentes = styled.div`
     padding: 1rem;
     display: grid;
     grid-template-columns: 85% 15%;
+    
 
     color:#0E403F;
 
@@ -21,6 +22,19 @@ export const PerguntasFrequentes = styled.div`
         font-weight: 400;
         font-size: 18px;
         line-height: 150%;
+    }
+    @media only screen and (max-width: 600px){
+        width: 85vw;
+        h5{
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 22px;
+        }
+        p{
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 150%;
+        }
     }
 
 `

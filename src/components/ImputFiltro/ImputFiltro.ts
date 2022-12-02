@@ -13,7 +13,7 @@ export const ImputFiltroStyle = styled.div`
 
     @media screen and (max-width: 600px){
         display: block;
-        height: 35px;
+        height: 40px;
         width: 80%;
         margin: auto;
         margin-bottom: 15px;
