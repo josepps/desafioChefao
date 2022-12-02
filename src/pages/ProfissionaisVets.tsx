@@ -1,10 +1,10 @@
 import { useEffect,useState } from "react";
+import { Link, useSearchParams } from "react-router-dom";
 import CardProfissionalVet, {CardVetsProps}from "../components/CardProfissionalVet";
 import Footer from "../components/Footer";
-import { ImputFiltroStyle } from "../components/ImputFiltro/ImputFiltro";
 import NavBar from "../components/NavBar/NavBar";
 import api from "../services/api";
-import {SectionProfissionais, DivCardProfissionais} from "./ProfissionaisVets.style"
+import {SectionProfissionais, DivCardProfissionais, ImputFiltroStyle} from "./ProfissionaisVets.style"
 
 
 function ProfissionaisVets(){
@@ -13,6 +13,8 @@ function ProfissionaisVets(){
     const [presencial, setPresencial] = useState('');
     const [especialidade, setEspecialidade] = useState('');
     const [ceep, setCeep] = useState('');
+    const [searchParams] = useSearchParams();
+    const code = searchParams.get('cep');
 
     async function getVetsData() {
         const { data } = await api.get("/vets");
@@ -51,14 +53,14 @@ function ProfissionaisVets(){
                 <div>
                     <input className="ImputLocal" type="text" placeholder="Buscar por cidade ou UF" value={ceep} onChange={(event) => setCeep(event.target.value) }/>
                 </div>
-                <a href="#" >Caçar Vet</a>
+                <Link to={`/vets?modalidade=${presencial}&specialidade=${especialidade}&cep=${ceep}`}><button>Caçar Vet</button></Link>
             </ImputFiltroStyle>
                 <DivCardProfissionais>
                     {vetsList
                     .filter(
                         // @ts-ignore
                         (item) =>
-                          String(item.address.city).includes(ceep) ||
+                          String(item.address.city).includes(code) ||
                           String(item.address.state) === ceep    
                       )
                     .map(
