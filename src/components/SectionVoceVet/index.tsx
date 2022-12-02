@@ -7,7 +7,7 @@ function SectionVoceVet(){
     return(
         <VoceVetSection>
             <VoceVetDescricao>
-                <h3>Você é vet?</h3>
+                <h3>Você é veterinário?</h3>
                 <p>Fique visível para milhares de pessoas.</p>
                 <p>Cadastre-se agora e conquiste mais clientes!</p>
                 <CadastrarServico/>
