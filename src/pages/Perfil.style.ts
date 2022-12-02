@@ -46,12 +46,11 @@ export const Container = styled.div`
     }
 
     .perfil__vet {
-      gap: 10px;
       position: relative;
-      left: 40%;
+      left: 60%;
       top: -60px;
       margin: 20px;
-      word-wrap: break-word;
+      width: 100px;
     }
 
     h4 {
@@ -105,18 +104,17 @@ export const ConsultaValor = styled.div`
 
   @media only screen and (max-width: 600px) {
     .info__valor {
-      display: flex;
+      display: none;
       flex-direction: row;
       gap: 2em;
       padding: 2em;
       font-size: 4px;
       position: absolute;
       left: 50px;
-      bottom: 15%;
+      bottom: 5%;
       margin-right: 50px;
       align-items: baseline;
-      border-radius: 20px;
-      flex-basis: 50%;
+      width: 100px;
 
       h4 {
         font-size: 18px;
@@ -126,17 +124,18 @@ export const ConsultaValor = styled.div`
         font-size: 16px;
       }
 
-    .botao {
-      position: relative;
-      top: 100px;
+      .botao {
+        position: relative;
+        top: 100px;
       right: 50%;
-      margin: 40px;
+      /* margin: 40px; */
+        width: 100px;
+      }
     }
-
   }
 `;
 
-  export const AboutMe = styled.div`
+export const AboutMe = styled.div`
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -178,4 +177,5 @@ export const ConsultaValor = styled.div`
       line-height: 1.5rem;
     }
   }
+
 `;
