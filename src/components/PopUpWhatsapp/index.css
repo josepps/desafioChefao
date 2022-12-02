@@ -1,61 +1,120 @@
 .modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  width: 700px;
+  height: 460px;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50px;
+  box-shadow: 5.33066px 7.99599px 11.994px 7.99599px rgba(0, 0, 0, 0.44);
+  background-color: #f6ffff;
+  color: #0e403f;
+  text-decoration: none;
+  border: none;
+}
+
+.popup-texto {
+  display: flex;
+  flex-direction: row;
+  font-family: Lato;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 49px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.img-dog {
+  display: block;
+  width: 15vw;
+}
+
+.modal-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: end;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  border: none;
+}
+
+.botao-zap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background: #4fdc0d;
+  padding: 10px 20px;
+  border-radius: 24px;
+  font-size: 1.2rem;
+  font-weight: 900;
+  gap: 10px;
+}
+
+.IconeWhats {
+  font-size: 2.5rem;
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .modal {
     position: absolute;
     top: 50%;
     left: 50%;
     right: auto;
     bottom: auto;
-    width: 700px;
-    height: 460px;
+    width: 300px;
+    height: 400px;
     margin-right: -50%;
     transform: translate(-50%, -50%);
     border-radius: 50px;
     box-shadow: 5.33066px 7.99599px 11.994px 7.99599px rgba(0, 0, 0, 0.44);
-    background-color: #F6FFFF;
-    color: #0E403F;
+    background-color: #f6ffff;
+    color: #0e403f;
     text-decoration: none;
     border: none;
-}
+  }
 
-.popup-texto {
+  .popup-texto {
     display: flex;
     flex-direction: row;
     font-family: Lato;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 700;
-    line-height: 49px;
+    line-height: 20px;
     letter-spacing: 0em;
     text-align: center;
-}
-
-.img-dog {
+  }
+  
+  .img-dog {
     display: block;
-    width: 15vw;
-}
+    width: 24vw;
+  }
 
-.modal-content {
+  .modal-content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: end;
-    justify-content: center;
+    grid-template-columns: 1fr;
     align-items: center;
-    padding: 30px;
+    justify-items: center;
+    justify-content: space-around;
+    padding: 60px;
+    gap: 20px;
     border: none;
-}
+  }
 
-.botao-zap {
+  .botao-zap {
     display: flex;
     align-items: center;
     justify-content: center;
     color: #fff;
-    background: #4FDC0D;
-    padding: 10px 20px;
+    background: #4fdc0d;
     border-radius: 24px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 900;
     gap: 10px;
-}
-
-.IconeWhats {
-    font-size: 2.5rem;
-    margin-left: 10px;
+  }
 }
