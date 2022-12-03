@@ -48,13 +48,14 @@ export const VoceVetDescricao = styled.div`
         }
         p{
             font-weight: 600;
-            font-size: 1rem;
-            line-height: 1.6rem;
-            width: 460px;
+            font-size: 0.8rem;
+            line-height: 1rem;
+            width: 90%;
         }
         button{
             margin: auto;
             margin-top: 1.5rem;
+            width: 70%;
         }
     }
 
