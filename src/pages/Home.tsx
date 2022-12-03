@@ -1,6 +1,6 @@
 
 import Footer from "../components/Footer";
-import {SectionBusca, DivImagensInicialHome, DivInicialDescricaoHome, DivApresentacaoHome, ImgIconGatoCachorro, Setaparabaixo} from "./../components/SectionBuscaHome/SectionBuscaHome.style"
+import {SectionHome, SectionBusca, DivImagensInicialHome, DivInicialDescricaoHome, DivApresentacaoHome, ImgIconGatoCachorro, Setaparabaixo} from "./../components/SectionBuscaHome/SectionBuscaHome.style"
 import { TelaCacarVets, BolaVerde, Bolalaranja, DivDosCards, CardPassoaPasso, DivOrientacao, LinhaTracejada} from "./../components/SectionCacarVets/SectionCacarVets.styled"
 import WhatsappIcon from "./../../public/IconWhatsapp.png"
 import LocalidadeIcon from "./../../public/IconPesquisa.png"
@@ -17,7 +17,7 @@ import NavBar from "../components/NavBar/NavBar";
 function Home() {
 
     return(
-        <>
+        <SectionHome>
             <NavBar/> 
             <SectionBusca>
                 <DivApresentacaoHome>
@@ -65,7 +65,7 @@ function Home() {
             <SectionCarrosselHome/>
             <SectionFAQ/>
             <Footer/>
-        </>
+        </SectionHome>
     )
 }
 

@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
-
+export const SectionHome = styled.div`
+    width: 100%;
+`
 
 export const SectionBusca = styled.section`
     background-color: #017369;
