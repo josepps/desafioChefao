@@ -9,6 +9,7 @@ export const SectionPerguntas = styled.div`
     grid-template-rows: calc(6, 1fr);
     row-gap: 1rem;
     margin-bottom: 3rem;
+    width:100%
 
     h2{
         margin-bottom: 2rem;
@@ -32,9 +33,9 @@ export const SectionPerguntas = styled.div`
             margin-bottom: 1.5rem;
             color: #0E403F;
             font-weight: 800;
-            font-size: 30px;
+            font-size: 24px;
             line-height: 38px;
-            text-align: center;
+//             text-align: center;
         }
         h3{
             margin-bottom: 0.5rem;
