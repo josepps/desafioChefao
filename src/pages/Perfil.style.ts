@@ -104,7 +104,7 @@ export const ConsultaValor = styled.div`
 
   @media only screen and (max-width: 600px) {
     .info__valor {
-      display: none;
+      display: flex;
       flex-direction: row;
       gap: 2em;
       padding: 2em;
@@ -117,19 +117,21 @@ export const ConsultaValor = styled.div`
       width: 100px;
 
       h4 {
+        display: none;
         font-size: 18px;
       }
 
       p {
+        display: none;
         font-size: 16px;
       }
 
       .botao {
-        position: relative;
-        top: 100px;
-      right: 50%;
-      /* margin: 40px; */
-        width: 100px;
+        display: inline-block;
+      position: relative;
+      top: 0 auto;
+      margin: 80px;
+      
       }
     }
   }
