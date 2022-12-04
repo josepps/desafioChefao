@@ -8,6 +8,7 @@ import * as yup from "yup"
 import api from "../services/api";
 import NavBar from "../components/NavBar/NavBar";
 import { Link } from "react-router-dom";
+import PopupCadastro from "../components/PopUpCadastro/PopUpCadastro";
 
 type ValidationProps = {
     name: string;
@@ -196,7 +197,9 @@ function Cadastro(){
                             </div>
                             
                         
-                        <button type="submit">Enviar</button>
+                        <button type="submit">Enviar
+                        <PopupCadastro/>
+                        </button>
                     </form>
                 </DivForm>
                 <DivImagemCadastro>
