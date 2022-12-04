@@ -128,9 +128,10 @@ export const ConsultaValor = styled.div`
 
       .botao {
         display: flex;
-        position: relative;
-        top: 0 auto;
-        margin: 50px;
+        margin-bottom: 50px;
+        margin-left: 70px;
+        
+        align-items: center;
       }
     }
   }
