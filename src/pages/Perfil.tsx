@@ -10,6 +10,7 @@ import CardProfissionalVet, {
   CardVetsProps,
 } from "../components/CardProfissionalVet";
 import EstrelaCard from "../../public/EstrelaCard.svg";
+import PopupCadastro from "../components/PopUpCadastro/PopUpCadastro";
 
 type PerfilProps = {
   name: string;
@@ -92,7 +93,7 @@ function Perfil() {
             <p>Horário comercial: {vetsData.queryValue}</p>
             <p>Urgências 24h: {vetsData.queryDutyValue}</p>
             <div className="botao">
-              <ButtonWhatsap />
+            <ButtonWhatsap/>
             </div>
           </div>
         </ConsultaValor>

@@ -127,9 +127,9 @@ export const ConsultaValor = styled.div`
       }
 
       .botao {
-        display: grid;
-      
-        
+        display: flex;
+        margin-bottom: 300px;
+        padding-right: -30px;
       }
     }
   }
