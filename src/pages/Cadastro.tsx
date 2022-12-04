@@ -7,6 +7,7 @@ import {yupResolver} from "@hookform/resolvers/yup"
 import * as yup from "yup"
 import api from "../services/api";
 import NavBar from "../components/NavBar/NavBar";
+import { Link } from "react-router-dom";
 
 type ValidationProps = {
     name: string;
@@ -195,7 +196,7 @@ function Cadastro(){
                             </div>
                             
                         
-                        <button type="submit">Enviar</button>
+                        <Link to={"/vets?vets?modalidade=&specialidade=&cep="}><button type="submit">Enviar</button></Link>
                     </form>
                 </DivForm>
                 <DivImagemCadastro>

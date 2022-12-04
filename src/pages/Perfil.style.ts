@@ -127,11 +127,11 @@ export const ConsultaValor = styled.div`
       }
 
       .botao {
-        display: inline-block;
-      position: relative;
-      top: 0 auto;
-      margin: 80px;
-      
+        display: flex;
+        margin-bottom: 50px;
+        margin-left: 70px;
+        
+        align-items: center;
       }
     }
   }
@@ -179,5 +179,4 @@ export const AboutMe = styled.div`
       line-height: 1.5rem;
     }
   }
-
 `;
