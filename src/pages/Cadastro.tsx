@@ -196,7 +196,7 @@ function Cadastro(){
                             </div>
                             
                         
-                        <Link to={"/vets?vets?modalidade=&specialidade=&cep="}><button type="submit">Enviar</button></Link>
+                        <button type="submit">Enviar</button>
                     </form>
                 </DivForm>
                 <DivImagemCadastro>
