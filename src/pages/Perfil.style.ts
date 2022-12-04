@@ -128,7 +128,7 @@ export const ConsultaValor = styled.div`
 
       .botao {
         display: grid;
-       margin: 40px;
+      
         
       }
     }
