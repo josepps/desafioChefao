@@ -127,11 +127,9 @@ export const ConsultaValor = styled.div`
       }
 
       .botao {
-        display: flex;
-        margin-bottom: 50px;
-        margin-left: 70px;
+        display: grid;
+       margin: 40px;
         
-        align-items: center;
       }
     }
   }
