@@ -6,9 +6,7 @@ O CaçaVet é um site no qual visa facilitar a comunicação entre os tutores na
 
 ![Alt text](./src/img/cacavet.png)
 </div>
-<br>
-Link: https://desafio-chefao-ivory.vercel.app/
-<br>
+
 
 # Funcionalidades
 
