@@ -18,7 +18,7 @@ Link: https://desafio-chefao-ivory.vercel.app/
 
 - Edição de dados cadastrais;
 
-- Filtragem de veterinários por localização a partir do CEP;
+- Filtragem de veterinários por localização a partir da Cidade;
 
 - Filtragem de Veterinários que aceitem teleconsulta;
 
