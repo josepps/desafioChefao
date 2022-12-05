@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const SectionCadastro = styled.section`
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 7rem;
 
